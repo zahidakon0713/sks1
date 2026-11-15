@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhaj &amp; Nimil — Shuvo Bibaho Pandal (Powered by SKS)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cinzel, Playfair Display, Galada, Hind Siliguri, & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Galada&family=Hind+Siliguri:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#0a0305',
+                        charcoal: '#16050a',
+                        maroon: {
+                            deep: '#4a0414',
+                            DEFAULT: '#5C0A1B',
+                            royal: '#700820',
+                            bright: '#9b0d2d',
+                        },
+                        gold: {
+                            light: '#FDE047',
+                            DEFAULT: '#EAB308',
+                            amber: '#D97706',
+                        },
+                        ivory: '#FFFBEB',
+                        cream: '#FDE68A',
+                        muted: '#D6C7B2'
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'Georgia', 'serif'],
+                        display: ['"Playfair Display"', 'Georgia', 'serif'],
+                        bengali: ['"Hind Siliguri"', 'sans-serif'],
+                        galada: ['Galada', 'cursive'],
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Retro Bangladeshi Biye Bari Pandal Red & Yellow Canopy Stripes */
+        .pandal-canopy {
+            background: repeating-linear-gradient(
+                90deg,
+                #700820 0px,
+                #700820 26px,
+                #b45309 26px,
+                #b45309 32px,
+                #4a0414 32px,
+                #4a0414 58px,
+                #eab308 58px,
+                #eab308 64px
+            );
+        }
+
+        /* Pandal Scalloped Frill Trim */
+        .pandal-frill {
+            background-image: radial-gradient(circle at 16px 0, transparent 15px, #eab308 16px, #700820 18px);
+            background-size: 32px 20px;
+            height: 20px;
+        }
+
+        /* Glowing Animated Jhalor Fairy Lights */
+        @keyframes jhalorBlinkA {
+            0%, 100% { opacity: 1; transform: scale(1.12); }
+            50% { opacity: 0.35; transform: scale(0.9); }
+        }
+        @keyframes jhalorBlinkB {
+            0%, 100% { opacity: 0.35; transform: scale(0.9); }
+            50% { opacity: 1; transform: scale(1.15); }
+        }
+        .bulb-a { animation: jhalorBlinkA 1.4s infinite ease-in-out; }
+        .bulb-b { animation: jhalorBlinkB 1.4s infinite ease-in-out; }
+
+        /* Vintage Biye Bari Double Ornate Frame */
+        .biye-card-border {
+            box-shadow:
+                inset 0 0 0 2px rgba(234, 179, 8, 0.55),
+                inset 0 0 0 7px #16050a,
+                inset 0 0 0 9px rgba(234, 179, 8, 0.3),
+                0 25px 60px rgba(0, 0, 0, 0.9);
+        }
+    </style>
+</head>
+<body class="bg-obsidian text-ivory font-sans antialiased selection:bg-maroon-royal selection:text-gold-light overflow-x-hidden">
+
+    <!-- Top Biye Bari Pandal Canopy & Glowing Jhalor Fairy Light Garland -->
+    <div class="sticky top-0 z-50 shadow-[0_10px_30px_rgba(0,0,0,0.9)]">
+        <!-- Striped Pandal Header Bar -->
+        <div class="pandal-canopy border-b-2 border-gold/80 py-2 px-3 text-center relative">
+            <div class="bg-obsidian/85 backdrop-blur-sm inline-block px-4 py-1 rounded-full border border-gold/60 shadow-lg">
+                <p class="font-bengali text-xs sm:text-sm text-gold-light font-semibold tracking-wide">
+                    বিসমিল্লাহির রাহমানির রাহিম &bull; বিবাহোত্তর সংবর্ধনা (প্যান্ডেল এডিশন)
+                </p>
+            </div>
+        </div>
+
+        <!-- Hanging Jhalor Fairy Lights String -->
+        <div class="bg-obsidian/95 border-b border-gold/25 py-1.5 px-2 overflow-hidden">
+            <div class="max-w-6xl mx-auto flex justify-between items-center gap-1.5" aria-hidden="true">
+                <!-- Colorful Jhalor Bulbs -->
+                <span class="w-2.5 h-3.5 rounded-b-full bg-red-500 shadow-[0_0_10px_#ef4444] bulb-a"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-yellow-400 shadow-[0_0_10px_#facc15] bulb-b"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-emerald-400 shadow-[0_0_10px_#34d399] bulb-a"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-pink-500 shadow-[0_0_10px_#ec4899] bulb-b"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-sky-400 shadow-[0_0_10px_#38bdf8] bulb-a"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-amber-400 shadow-[0_0_10px_#fbbf24] bulb-b"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-red-500 shadow-[0_0_10px_#ef4444] bulb-a"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-emerald-400 shadow-[0_0_10px_#34d399] bulb-b"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-pink-500 shadow-[0_0_10px_#ec4899] bulb-a"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-yellow-400 shadow-[0_0_10px_#facc15] bulb-b"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-sky-400 shadow-[0_0_10px_#38bdf8] bulb-a"></span>
+                <span class="w-2.5 h-3.5 rounded-b-full bg-red-500 shadow-[0_0_10px_#ef4444] bulb-b"></span>
+                <span class="hidden sm:inline-block w-2.5 h-3.5 rounded-b-full bg-yellow-400 shadow-[0_0_10px_#facc15] bulb-a"></span>
+                <span class="hidden sm:inline-block w-2.5 h-3.5 rounded-b-full bg-emerald-400 shadow-[0_0_10px_#34d399] bulb-b"></span>
+                <span class="hidden sm:inline-block w-2.5 h-3.5 rounded-b-full bg-pink-500 shadow-[0_0_10px_#ec4899] bulb-a"></span>
+                <span class="hidden sm:inline-block w-2.5 h-3.5 rounded-b-full bg-sky-400 shadow-[0_0_10px_#38bdf8] bulb-b"></span>
+                <span class="hidden md:inline-block w-2.5 h-3.5 rounded-b-full bg-red-500 shadow-[0_0_10px_#ef4444] bulb-a"></span>
+                <span class="hidden md:inline-block w-2.5 h-3.5 rounded-b-full bg-amber-400 shadow-[0_0_10px_#fbbf24] bulb-b"></span>
+                <span class="hidden md:inline-block w-2.5 h-3.5 rounded-b-full bg-emerald-400 shadow-[0_0_10px_#34d399] bulb-a"></span>
+                <span class="hidden md:inline-block w-2.5 h-3.5 rounded-b-full bg-pink-500 shadow-[0_0_10px_#ec4899] bulb-b"></span>
+            </div>
+        </div>
+
+        <!-- Compact Navigation Bar -->
+        <nav class="bg-charcoal/95 backdrop-blur-md border-b border-gold/25">
+            <div class="max-w-5xl mx-auto px-4 flex justify-between items-center h-12">
+                <a href="#home" class="font-cinzel text-sm sm:text-base font-bold tracking-widest text-gold-light flex items-center gap-2">
+                    <span>M &amp; N</span>
+                    <span class="text-[10px] px-2 py-0.5 rounded bg-maroon-royal border border-gold/50 text-ivory uppercase">SKS Pandal</span>
+                </a>
+                <div class="flex items-center space-x-4 sm:space-x-7 text-[11px] uppercase tracking-[0.18em] text-cream font-semibold">
+                    <a href="#home" class="hover:text-gold-light transition-colors">Card</a>
+                    <a href="#menu" class="hover:text-gold-light transition-colors">Cha-Ruti</a>
+                    <a href="#gift-policy" class="text-gold-light hover:text-ivory transition-colors underline decoration-gold/60 underline-offset-4">Gift &amp; Salami</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 1. Hero Retro Bangladeshi Biye Bari Invitation Card -->
+    <header id="home" class="relative py-10 sm:py-16 px-3 sm:px-6 overflow-hidden">
+        <!-- Deep Maroon Radial Glow Backdrop -->
+        <div class="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,_#700820_0%,_#4a0414_45%,_#0a0305_95%)] opacity-80"></div>
+
+        <!-- Subtle Traditional Alpona / Kalka Diamond Lattice -->
+        <svg class="absolute inset-0 w-full h-full z-0 opacity-10 pointer-events-none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="kalka-grid" width="72" height="72" patternUnits="userSpaceOnUse">
+                    <path d="M36 0 L72 36 L36 72 L0 36 Z" fill="none" stroke="#EAB308" stroke-width="0.8"/>
+                    <circle cx="36" cy="36" r="8" fill="none" stroke="#EAB308" stroke-width="0.8"/>
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#kalka-grid)" />
+        </svg>
+
+        <!-- Main Old-School Biye Bari Card -->
+        <div class="relative z-10 max-w-3xl mx-auto bg-charcoal/95 biye-card-border rounded-3xl p-6 sm:p-12 text-center overflow-hidden">
+            
+            <!-- Traditional Bengali Kalka Corner Motifs (4 Corners) -->
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-gold/80 absolute top-3 left-3 pointer-events-none" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 35, 35 8, 92 8 C62 22, 22 62, 8 92 Z" fill="#700820" stroke="currentColor" stroke-width="2"/>
+                <circle cx="28" cy="28" r="6" fill="currentColor"/>
+                <path d="M16 65 Q35 35 65 16" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-gold/80 absolute top-3 right-3 rotate-90 pointer-events-none" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 35, 35 8, 92 8 C62 22, 22 62, 8 92 Z" fill="#700820" stroke="currentColor" stroke-width="2"/>
+                <circle cx="28" cy="28" r="6" fill="currentColor"/>
+                <path d="M16 65 Q35 35 65 16" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-gold/80 absolute bottom-3 left-3 -rotate-90 pointer-events-none" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 35, 35 8, 92 8 C62 22, 22 62, 8 92 Z" fill="#700820" stroke="currentColor" stroke-width="2"/>
+                <circle cx="28" cy="28" r="6" fill="currentColor"/>
+                <path d="M16 65 Q35 35 65 16" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+            <svg class="w-14 h-14 sm:w-20 sm:h-20 text-gold/80 absolute bottom-3 right-3 rotate-180 pointer-events-none" viewBox="0 0 100 100" fill="none">
+                <path d="M8 92 C8 35, 35 8, 92 8 C62 22, 22 62, 8 92 Z" fill="#700820" stroke="currentColor" stroke-width="2"/>
+                <circle cx="28" cy="28" r="6" fill="currentColor"/>
+                <path d="M16 65 Q35 35 65 16" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+            </svg>
+
+            <!-- Top SKS Proclamation Ribbon -->
+            <div class="mt-4 sm:mt-2 mb-4">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-maroon-royal border border-gold text-gold-light text-[11px] sm:text-xs font-bold uppercase tracking-[0.18em] shadow-md">
+                    Shorbohara Kollan Shomitir Pokkho Theke Shuvechcha
+                </span>
+            </div>
+
+            <!-- Powered By SKS Motto Pill -->
+            <p class="text-[11px] sm:text-xs font-bold uppercase tracking-[0.22em] text-cream bg-obsidian/80 border border-gold/35 inline-block px-4 py-1 rounded-lg mb-5">
+                Powered by SKS &bull; No Money, Big Heart &bull; Chera Kathay Shuye Lakh Takar Shopno
+            </p>
+
+            <!-- Retro Bengali Wedding Header -->
+            <div class="mb-2">
+                <p class="font-galada text-3xl sm:text-4xl text-gold-light drop-shadow">
+                    শুভ বিবাহ ও প্রীতিভোজ
+                </p>
+                <p class="font-cinzel text-xs sm:text-sm uppercase tracking-[0.35em] text-muted mt-1">
+                    Shuvo Bibaho &bull; Grand Reception Pandal
+                </p>
+            </div>
+
+            <!-- Couple Names -->
+            <div class="my-5 py-4 border-y border-gold/30 bg-gradient-to-r from-transparent via-maroon-deep/60 to-transparent">
+                <h1 class="font-display text-4xl sm:text-6xl md:text-7xl font-bold text-ivory tracking-tight">
+                    Minhaj <span class="text-gold-light italic font-serif">&amp;</span> Nimil
+                </h1>
+                <p class="font-serif italic text-base sm:text-xl text-cream mt-2">
+                    &ldquo;Two broken wallets, one giant bamboo &amp; cloth pandel dream!&rdquo;
+                </p>
+            </div>
+
+            <!-- Vintage Biye Bari Invitation Paragraph -->
+            <p class="text-xs sm:text-sm text-ivory/90 max-w-xl mx-auto leading-relaxed mb-6">
+                Honorable Bhai-Brothers, Chacha-Mamas, Aunties &amp; Free-Food Enthusiasts: With 0% bank balance and 100% moral support from <strong class="text-gold-light">Shorbohara Kollan Shomiti (SKS)</strong>, you are cordially summoned to grace our wedding reception pandel!
+            </p>
+
+            <!-- Date, Time & Pandal Coordinates Box -->
+            <div class="bg-obsidian/85 border-2 border-dashed border-gold/50 rounded-2xl p-5 sm:p-6 max-w-xl mx-auto space-y-2 mb-7">
+                <p class="font-cinzel text-base sm:text-xl font-bold text-gold-light tracking-wider">
+                    SATURDAY, 12 DECEMBER 2026
+                </p>
+                <p class="text-sm sm:text-base font-semibold text-ivory">
+                    Time: 1:00 PM Sharp <span class="text-gold">(Cha-Ruti &amp; Biri Session Starts Immediately)</span>
+                </p>
+                <div class="h-px w-24 bg-gold/40 mx-auto my-2"></div>
+                <p class="font-display text-lg sm:text-xl text-cream font-semibold">
+                    Amrita Lal Dey Milonayoton (Floor 2)
+                </p>
+                <p class="text-xs sm:text-sm text-muted">
+                    Barishal Club Limited Compound, Club Road, Barishal 8200
+                </p>
+                <p class="text-[11px] italic text-gold-light pt-1">
+                    *Follow the 1990s Hindi-Bangla horn loudspeaker sound &amp; blinking Jhalor lights!*
+                </p>
+            </div>
+
+            <!-- Quick CTA Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+                <a href="#gift-policy" class="w-full sm:w-auto px-7 py-3.5 rounded-full bg-gradient-to-r from-maroon-royal via-maroon-bright to-maroon-royal hover:brightness-110 text-gold-light border-2 border-gold text-xs font-bold uppercase tracking-[0.18em] shadow-[0_0_20px_rgba(234,179,8,0.3)] transition-all">
+                    Check SKS Gift &amp; Salami Rules
+                </a>
+                <a href="#menu" class="w-full sm:w-auto px-7 py-3.5 rounded-full bg-obsidian hover:bg-maroon-deep text-ivory border border-gold/50 text-xs font-semibold uppercase tracking-[0.18em] transition-all">
+                    Inspect Cha-Ruti-Biri Menu
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pandal Scalloped Frill Divider -->
+    <div class="pandal-frill w-full opacity-90" aria-hidden="true"></div>
+
+    <!-- 2. Live Countdown Timer Section -->
+    <section aria-label="Countdown to Pandal Gate Opening" class="py-12 sm:py-16 px-4 bg-charcoal border-b border-gold/25">
+        <div class="max-w-3xl mx-auto text-center">
+            <span class="text-[11px] uppercase tracking-[0.28em] text-gold-light font-bold">
+                Countdown to Pandal Gate Opening &amp; Mike Testing
+            </span>
+            <h2 class="font-display italic text-2xl sm:text-3xl text-ivory mt-1 mb-7">
+                12 December 2026 &bull; 1:00 PM (Barishal Time)
+            </h2>
+
+            <div id="countdown" class="grid grid-cols-4 gap-2.5 sm:gap-5 max-w-xl mx-auto">
+                <div class="bg-gradient-to-b from-maroon-deep to-obsidian border-2 border-gold/50 rounded-2xl p-3 sm:p-5 shadow-lg">
+                    <span id="days" class="block font-cinzel text-2xl sm:text-4xl text-gold-light font-bold">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-cream mt-1 block">Days</span>
+                </div>
+                <div class="bg-gradient-to-b from-maroon-deep to-obsidian border-2 border-gold/50 rounded-2xl p-3 sm:p-5 shadow-lg">
+                    <span id="hours" class="block font-cinzel text-2xl sm:text-4xl text-gold-light font-bold">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-cream mt-1 block">Hours</span>
+                </div>
+                <div class="bg-gradient-to-b from-maroon-deep to-obsidian border-2 border-gold/50 rounded-2xl p-3 sm:p-5 shadow-lg">
+                    <span id="minutes" class="block font-cinzel text-2xl sm:text-4xl text-gold-light font-bold">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-cream mt-1 block">Mins</span>
+                </div>
+                <div class="bg-gradient-to-b from-maroon-deep to-obsidian border-2 border-gold/50 rounded-2xl p-3 sm:p-5 shadow-lg">
+                    <span id="seconds" class="block font-cinzel text-2xl sm:text-4xl text-gold-light font-bold">00</span>
+                    <span class="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-cream mt-1 block">Secs</span>
+                </div>
+            </div>
+            <p class="text-xs sm:text-sm text-muted italic mt-5">
+                &ldquo;Hurry! SKS Committee members are currently negotiating credit with the bamboo &amp; decorator uncle.&rdquo;
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. The Legendary SKS Pandal Menu ("Cha • Ruti • Biri") -->
+    <section id="menu" class="py-16 sm:py-24 px-4 sm:px-6 bg-obsidian relative">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="inline-block px-3 py-1 rounded-full bg-maroon-deep border border-gold/40 text-[11px] uppercase tracking-[0.25em] text-gold-light font-bold mb-3">
+                    Chera Kathay Shuye Lakh Takar Shopno
+                </span>
+                <h2 class="font-display text-3xl sm:text-5xl text-ivory font-bold">
+                    The Royal Pandal Dastarkhwan
+                </h2>
+                <p class="font-serif italic text-lg sm:text-xl text-cream mt-2">
+                    Official Catering Menu: <span class="text-gold-light font-semibold not-italic">Cha &bull; Ruti &bull; Biri</span>
+                </p>
+            </div>
+
+            <!-- 3-Course Satirical Menu Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Starter: Cha -->
+                <div class="bg-gradient-to-b from-charcoal to-maroon-deep/50 border border-gold/40 rounded-3xl p-6 text-center shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-full bg-maroon-royal border border-gold flex items-center justify-center mx-auto mb-4 text-gold-light font-cinzel font-bold">
+                            01
+                        </div>
+                        <span class="text-[10px] uppercase tracking-[0.25em] text-gold font-bold">Royal Starter</span>
+                        <h3 class="font-display text-2xl text-ivory font-bold mt-1 mb-3">Unlimited Tong-er Cha</h3>
+                        <p class="text-xs sm:text-sm text-muted leading-relaxed">
+                            Brewed 47 times with extra condensed milk &amp; raw ginger. Served piping hot in authentic wedding-grade translucent plastic cups.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-3 border-t border-gold/20 text-[11px] text-gold-light uppercase tracking-wider font-semibold">
+                        Refill Limit: Until Milk Runs Out
+                    </div>
+                </div>
+
+                <!-- Main Course: Ruti -->
+                <div class="bg-gradient-to-b from-maroon-deep/70 to-charcoal border-2 border-gold rounded-3xl p-6 text-center shadow-2xl flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-full bg-gold text-obsidian flex items-center justify-center mx-auto mb-4 font-cinzel font-extrabold">
+                            02
+                        </div>
+                        <span class="text-[10px] uppercase tracking-[0.25em] text-gold-light font-bold">Signature Main Course</span>
+                        <h3 class="font-display text-2xl text-ivory font-bold mt-1 mb-3">Premium Bakery Ruti</h3>
+                        <p class="text-xs sm:text-sm text-ivory/90 leading-relaxed">
+                            Freshly squeezed from Barishal&rsquo;s finest local bakery! 0% butter, 0% beef rezala, 100% pure Shorbohara love &amp; carbohydrate power.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-3 border-t border-gold/30 text-[11px] text-gold-light uppercase tracking-wider font-semibold">
+                        Pairing: Dip in Cha &amp; Pray
+                    </div>
+                </div>
+
+                <!-- Dessert & Digestif: Biri -->
+                <div class="bg-gradient-to-b from-charcoal to-maroon-deep/50 border border-gold/40 rounded-3xl p-6 text-center shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-full bg-maroon-royal border border-gold flex items-center justify-center mx-auto mb-4 text-gold-light font-cinzel font-bold">
+                            03
+                        </div>
+                        <span class="text-[10px] uppercase tracking-[0.25em] text-gold font-bold">Dessert &amp; Digestif</span>
+                        <h3 class="font-display text-2xl text-ivory font-bold mt-1 mb-3">Vintage Biri &amp; Pan</h3>
+                        <p class="text-xs sm:text-sm text-muted leading-relaxed">
+                            Hand-rolled heritage Biri accompanied by chuna-heavy Pan-Supari at the Pandal Exit Gate so you forget what you just ate.
+                        </p>
+                    </div>
+                    <div class="mt-5 pt-3 border-t border-gold/20 text-[11px] text-gold-light uppercase tracking-wider font-semibold">
+                        VIP Smoke Zone: Outside Gate
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. STRICT SKS GIFT & SALAMI POLICY ("SHOB GIFT LAGBE!") -->
+    <section id="gift-policy" class="py-16 sm:py-24 px-4 sm:px-6 bg-charcoal border-y-2 border-gold/40 relative">
+        <div class="max-w-4xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-10">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-red-900/90 border border-gold text-gold-light text-xs font-extrabold uppercase tracking-[0.22em] mb-3 animate-pulse">
+                    HIGH ALERT &bull; STRICT GATE SECURITY
+                </span>
+                <h2 class="font-display text-3xl sm:text-5xl text-ivory font-bold">
+                    SKS Gift &amp; Salami Policy
+                </h2>
+                <p class="font-bengali text-xl sm:text-2xl text-gold-light font-bold mt-2">
+                    &ldquo;সব গিফট লাগবে! লাগলে আরও বাড়াইয়া দিতে হবে!&rdquo;
+                </p>
+                <p class="text-xs sm:text-sm uppercase tracking-[0.18em] text-cream mt-1 font-semibold">
+                    (Shob Gift Lagbe! Lagle Aro Baraiya Dite Hobe — Empty Envelopes Strictly Banned!)
+                </p>
+            </div>
+
+            <!-- Main Policy Card -->
+            <div class="bg-obsidian/90 border-2 border-gold/60 rounded-3xl p-6 sm:p-10 shadow-2xl space-y-8">
+                
+                <!-- Warning Notice -->
+                <div class="bg-maroon-deep/90 border border-gold/50 rounded-2xl p-4 sm:p-5 text-center">
+                    <p class="text-xs sm:text-sm text-ivory font-medium leading-relaxed">
+                        <strong class="text-gold-light uppercase tracking-wider">Official Notice from SKS Finance Ministry:</strong> Because we spent our entire life savings on <span class="underline decoration-gold">Cha, Ruti, Biri &amp; Pandal Horn Mikes</span>, <strong class="text-gold-light">NO EMPTY ENVELOPE</strong> will be tolerated. <em>Khali kham dekhle gate thekei ferot pathano hobe!</em> Whatever you planned to bring, please double it at the gate.
+                    </p>
+                </div>
+
+                <!-- 4 Mandatory Gift Categories -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    <!-- Item 1 -->
+                    <div class="bg-charcoal border border-gold/30 rounded-2xl p-5">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-gold-light">01. Heavy Cash Salami</span>
+                            <span class="text-[10px] px-2 py-0.5 rounded bg-maroon-royal text-ivory font-bold">MANDATORY</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-muted leading-relaxed">
+                            Minimum 4-digit crisp notes only. Coins, torn 10-taka notes, or &ldquo;pocket-e khuchra nai&rdquo; excuses are strictly invalid at Floor 2.
+                        </p>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="bg-charcoal border border-gold/30 rounded-2xl p-5">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-gold-light">02. bKash / Nagad / Rocket</span>
+                            <span class="text-[10px] px-2 py-0.5 rounded bg-maroon-royal text-ivory font-bold">+ CHARGE SHOHO</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-muted leading-relaxed">
+                            Forgot your envelope? No problem! Gate guards carry QR codes. Must send <strong class="text-ivory">Send Money + Cash Out Charge shoho</strong>!
+                        </p>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="bg-charcoal border border-gold/30 rounded-2xl p-5">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-gold-light">03. Heavy Home Appliances</span>
+                            <span class="text-[10px] px-2 py-0.5 rounded bg-maroon-royal text-ivory font-bold">NO PHOTO FRAMES</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-muted leading-relaxed">
+                            Gold ornaments, Double-Door Fridge, Washing Machine, Dinner Set, Blender &amp; Pressure Cooker warmly hugged. <em class="text-cream">Wall clock &amp; photo frame nishedh!</em>
+                        </p>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="bg-charcoal border border-gold/30 rounded-2xl p-5">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-xs font-bold uppercase tracking-wider text-gold-light">04. SKS Pandal &amp; Mike Chanda</span>
+                            <span class="text-[10px] px-2 py-0.5 rounded bg-maroon-royal text-ivory font-bold">EXTRA BARAIYA DIN</span>
+                        </div>
+                        <p class="text-xs sm:text-sm text-muted leading-relaxed">
+                            Special extra donation counter at the stairs to pay off the bamboo, Jhalor lights, generator diesel, and 18 horn loudspeakers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Interactive SKS Gatekeeper Salami & Envelope Checker -->
+                <div class="bg-gradient-to-r from-maroon-deep via-maroon-royal/80 to-maroon-deep border-2 border-gold rounded-2xl p-5 sm:p-7 text-center">
+                    <span class="text-[10px] uppercase tracking-[0.25em] text-gold-light font-bold">
+                        Interactive Gate Security Pre-Check
+                    </span>
+                    <h3 class="font-display text-xl sm:text-2xl text-ivory font-bold mt-1 mb-2">
+                        SKS Gatekeeper Envelope Checker
+                    </h3>
+                    <p class="text-xs sm:text-sm text-cream/90 mb-4">
+                        Test if SKS guards will let you enter Floor 2 for Cha-Ruti-Biri:
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-xl mx-auto">
+                        <select id="gift-selector" aria-label="Select your wedding gift" class="w-full sm:flex-1 bg-obsidian text-ivory border border-gold/60 rounded-full px-4 py-3 text-xs sm:text-sm focus:outline-none focus:border-gold-light">
+                            <option value="empty">Empty Envelope (Khali Kham + Only Dua)</option>
+                            <option value="500">500 Taka Note (Ekta Choto Note)</option>
+                            <option value="frame">Recycled Scenery Photo Frame / Wall Clock</option>
+                            <option value="2000">2,000+ Taka Cash Salami (With Cash-Out Charge)</option>
+                            <option value="fridge">Gold / Fridge / Blender + Extra Pandal Chanda</option>
+                        </select>
+                        <button id="check-gate-btn" type="button" class="w-full sm:w-auto px-6 py-3 rounded-full bg-gold hover:bg-gold-light text-obsidian font-extrabold text-xs uppercase tracking-wider shadow-lg transition-all cursor-pointer">
+                            Verify at Gate
+                        </button>
+                    </div>
+
+                    <!-- Dynamic Gatekeeper Response Box -->
+                    <div id="gate-verdict" class="hidden mt-5 p-4 rounded-xl border text-xs sm:text-sm font-semibold leading-relaxed"></div>
+                </div>
+
+                <!-- Venue Map & Quick Utility Buttons -->
+                <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <a 
+                        href="https://www.google.com/maps/search/?api=1&query=Amrita+Lal+Dey+Auditorium+Barishal+Club+Limited+Club+Road+Barishal+8200" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-full bg-maroon-royal hover:bg-maroon-bright text-ivory border border-gold/60 text-xs uppercase tracking-[0.16em] font-semibold transition-all"
+                    >
+                        Open Pandal Map (Barishal Club)
+                    </a>
+                    <button 
+                        id="copy-address-btn" 
+                        type="button" 
+                        class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-full bg-obsidian hover:bg-maroon-deep text-gold-light border border-gold/40 text-xs uppercase tracking-[0.16em] font-semibold transition-all cursor-pointer"
+                    >
+                        Copy Venue Address
+                    </button>
+                    <button 
+                        id="download-ics-btn" 
+                        type="button" 
+                        class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3 rounded-full bg-obsidian hover:bg-maroon-deep text-cream border border-gold/30 text-xs uppercase tracking-[0.16em] font-semibold transition-all cursor-pointer"
+                    >
+                        Save Cha-Ruti Date (.ics)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Retro Biye Bari Footer -->
+    <footer class="py-12 px-4 bg-obsidian text-center relative">
+        <p class="font-cinzel text-2xl sm:text-3xl text-gold-light font-bold tracking-[0.25em] mb-2">
+            MINHAJ &amp; NIMIL
+        </p>
+        <p class="text-xs uppercase tracking-[0.28em] text-cream font-semibold mb-3">
+            12 December 2026 &bull; 1:00 PM &bull; Amrita Lal Dey Milonayoton (Floor 2), Barishal
+        </p>
+        <div class="max-w-xl mx-auto border-y border-gold/25 py-4 my-4 space-y-1.5">
+            <p class="font-serif italic text-lg text-gold-light">
+                &ldquo;Chera Kathay Shuye Lakh Takar Shopno&rdquo;
+            </p>
+            <p class="text-xs uppercase tracking-[0.2em] text-ivory font-bold">
+                Powered by SKS (Shorbohara Kollan Shomiti) &bull; No Money, Big Heart
+            </p>
+            <p class="text-[11px] text-muted">
+                Pandal, Bamboo &amp; 18-Horn Mike Decoration: SKS Event Management (Credit Basis)
+            </p>
+        </div>
+        <p class="text-[11px] text-gold/80 uppercase tracking-widest">
+            Shorbohara Kollan Shomitir Pokkho Theke Shuvechcha &bull; Cha &bull; Ruti &bull; Biri
+        </p>
+    </footer>
+
+    <!-- Bottom Striped Pandal Border -->
+    <div class="pandal-canopy h-3 w-full border-t border-gold/60" aria-hidden="true"></div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none opacity-0 transition-opacity duration-300">
+        <div class="bg-maroon-royal text-gold-light border-2 border-gold px-5 py-3 rounded-full shadow-2xl text-xs uppercase tracking-[0.16em] font-bold flex items-center space-x-2 whitespace-nowrap">
+            <span class="w-2 h-2 rounded-full bg-gold-light animate-ping"></span>
+            <span id="toast-message">Address copied!</span>
+        </div>
+    </div>
+
+    <!-- Client-Side JavaScript: Countdown, Gatekeeper Envelope Checker, Copy Address & Calendar -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Live Countdown Timer (Target: Dec 12, 2026 at 1:00 PM BST +06:00)
+            const receptionDate = new Date('2026-12-12T13:00:00+06:00').getTime();
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const distance = receptionDate - now;
+
+                if (distance <= 0) {
+                    document.getElementById('countdown').innerHTML = 
+                        '<div class="col-span-4 bg-maroon-royal border-2 border-gold rounded-2xl py-4 px-4 font-display text-lg sm:text-2xl text-gold-light font-bold">PANDAL GATE OPEN! CHA, RUTI &amp; BIRI SERVING NOW!</div>';
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = String(days).padStart(2, '0');
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+            }
+
+            updateCountdown();
+            setInterval(updateCountdown, 1000);
+
+            // 2. Interactive SKS Gatekeeper Salami & Envelope Checker
+            const giftSelector = document.getElementById('gift-selector');
+            const checkGateBtn = document.getElementById('check-gate-btn');
+            const gateVerdict = document.getElementById('gate-verdict');
+
+            const verdicts = {
+                empty: {
+                    style: 'bg-red-950/90 border-red-500 text-red-200',
+                    text: '🚨 SIREN ALERT! GATE BLOCKED! Khali kham detected by SKS X-Ray Scanner! Guard will escort you back to Club Road. Aro baraiya niye ashun!'
+                },
+                500: {
+                    style: 'bg-amber-950/90 border-amber-400 text-amber-200',
+                    text: '⚠️ WARNING: 500 Taka te shudhu 1 cup Tong-er Cha paben, Ruti o Biri paben na! Lagle aro 1,500 taka baraiya din!'
+                },
+                frame: {
+                    style: 'bg-red-950/90 border-red-400 text-red-200',
+                    text: '❌ REJECTED! SKS warehouse already has 42 waterfall scenery photo frames. Convert to cash salami at gate bKash counter!'
+                },
+                2000: {
+                    style: 'bg-emerald-950/90 border-emerald-400 text-emerald-200',
+                    text: '✅ APPROVED (SILVER PASS): Welcome to Floor 2! You get 2 cups of Cha, 3 Bakery Rutis & 1 VIP Biri. (Aro baraiya dile chair paben!)'
+                },
+                fridge: {
+                    style: 'bg-emerald-950/90 border-gold text-gold-light',
+                    text: '👑 VVIP SKS COMMANDER PASS! SKS President will personally fan you, carry your Fridge upstairs, and serve unlimited Cha-Ruti-Biri!'
+                }
+            };
+
+            checkGateBtn.addEventListener('click', () => {
+                const choice = giftSelector.value;
+                const result = verdicts[choice];
+                gateVerdict.className = `mt-5 p-4 rounded-xl border-2 text-xs sm:text-sm font-bold leading-relaxed ${result.style}`;
+                gateVerdict.textContent = result.text;
+                gateVerdict.classList.remove('hidden');
+            });
+
+            // Helper: Show Toast
+            const toast = document.getElementById('toast');
+            const toastMessage = document.getElementById('toast-message');
+            let toastTimeout;
+
+            function showToast(msg) {
+                toastMessage.textContent = msg;
+                toast.classList.remove('opacity-0');
+                toast.classList.add('opacity-100');
+                clearTimeout(toastTimeout);
+                toastTimeout = setTimeout(() => {
+                    toast.classList.remove('opacity-100');
+                    toast.classList.add('opacity-0');
+                }, 3000);
+            }
+
+            // 3. Copy Venue Address
+            const copyAddressBtn = document.getElementById('copy-address-btn');
+            const fullVenueAddress = 'Amrita Lal Dey Milonayoton (Floor 2), Barishal Club Limited Compound, Club Road, Barishal 8200';
+
+            copyAddressBtn.addEventListener('click', () => {
+                const tempTextarea = document.createElement('textarea');
+                tempTextarea.value = fullVenueAddress;
+                tempTextarea.style.position = 'fixed';
+                tempTextarea.style.opacity = '0';
+                document.body.appendChild(tempTextarea);
+                tempTextarea.select();
+                try {
+                    document.execCommand('copy');
+                    showToast('Pandal address copied! Don’t forget heavy gift!');
+                } catch (err) {
+                    showToast('Could not copy address');
+                }
+                document.body.removeChild(tempTextarea);
+            });
+
+            // 4. Download .ics Calendar File
+            const downloadIcsBtn = document.getElementById('download-ics-btn');
+            downloadIcsBtn.addEventListener('click', () => {
+                const icsContent = [
+                    'BEGIN:VCALENDAR',
+                    'VERSION:2.0',
+                    'PRODID:-//Minhaj and Nimil//SKS Biye Bari Pandal//EN',
+                    'BEGIN:VEVENT',
+                    'UID:minhaj-nimil-sks-pandal-20261212@barishal',
+                    'DTSTAMP:20261115T090000Z',
+                    'DTSTART:20261212T070000Z',
+                    'DTEND:20261212T110000Z',
+                    'SUMMARY:Minhaj & Nimil Biye Bari Pandal (Powered by SKS)',
+                    'DESCRIPTION:Shorbohara Kollan Shomitir pokkho theke shuvechcha! Shob gift lagbe, lagle aro baraiya dite hobe. Menu: Cha, Ruti, Biri.',
+                    'LOCATION:Amrita Lal Dey Milonayoton (Floor 2), Barishal Club Limited Compound, Club Road, Barishal 8200',
+                    'END:VEVENT',
+                    'END:VCALENDAR'
+                ].join('\r\n');
+
+                const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.setAttribute('download', 'Minhaj-Nimil-SKS-Biye-Bari.ics');
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+                showToast('Saved! Remember: Shob Gift Lagbe!');
+            });
+        });
+    </script>
+</body>
+</html>
